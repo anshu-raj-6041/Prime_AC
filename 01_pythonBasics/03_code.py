@@ -16,9 +16,14 @@
 
 
 # WAP to print avg of 2 no
-num1 = int(input("Enter the 1st no:"))
-print(num1)
-num2 = int(input("Enter the 2nd no:"))
-print(num2)
+# num1 = int(input("Enter the 1st no:"))
+# print(num1)
+# num2 = int(input("Enter the 2nd no:"))
+# print(num2)
 
-print("Average of 2 no:", (num1+num2)/2)
+# print("Average of 2 no:", (num1+num2)/2)
+
+n = "10"
+# n = "Anshu"       # wrong
+a = float(n)
+print(type(a))
